@@ -1,0 +1,23 @@
+@font-face {
+  font-family:"TheAmazingSpider-Man";
+  src: url("TheAmazingSpider-Man.ttf") format("TrueType");
+}
+
+p{
+  font-family:"TheAmazingSpider-Man";
+  font-size: 32px;
+  color: black;
+  text-align: center;
+}
+
+label {
+  font-family: "TheAmazingSpider-Man";
+  text-align: center;
+  font-size: 15px;
+}
+
+.bigtext {
+  font-family: "TheAmazingSpider-Man";
+  text-align: center;
+  font-size: 15px;
+}

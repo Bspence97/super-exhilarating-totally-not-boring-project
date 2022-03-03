@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Samuel L Jackson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="SLJ-FAQ.css">
+</head>
+
+<body>
+
+  <div class="title animatedflip">
+    Frequently Asked Questions
+    </div>
+
+
+<button type="button" class="collapsible">1. Why does Samuel L Jackson say “motherfucker” all the time?</button>
+<div class="content">
+  <p>As a child he had a stutter.</p>
+  </div>
+
+<button type="button" class="collapsible">2. How many movies has Samuel L. Jackson been in?</button>
+  <div class="content">
+    <p>A lot, motherfucker.</p>
+    </div>
+
+<button type="button" class="collapsible">3. Is Samuel L Jackson married?</button>
+    <div class="content">
+      <p>Google.</p>
+    </div>
+
+<button type="button" class="collapsible">4. When did Samuel L Jackson start acting?</button>
+  <div class="content">
+    <p>Out the womb.</p>
+  </div>
+
+<button type="button" class="collapsible">5. What is SLJ’s favorite type of music?</button>
+  <div class="content">
+    <p> I don’t know.</p>
+  </div>
+
+<button type="button" class="collapsible">6. What is Samuel L Jackson’s favorite color?</button>
+  <div class="content">
+    <p>Purple. He’s the reason why there are purple lightsabers in Star Wars.</p>
+  </div>
+
+<button type="button" class="collapsible">7. What is SLJ’s most well-known role?</button>
+  <div class="content">
+      <p>There isn’t just one.</p>
+    </div>
+
+<button type="button" class="collapsible">8. What is Samuel L Jackson’s next movie?</button>
+  <div class="content">
+    <p>Blazing Samurai.</p>
+      </div>
+
+<button type="button" class="collapsible">9. Has Samuel L Jackson done any anime?</button>
+  <div class="content">
+    <p>Yes, he played Afro Samurai in Afro Samurai.</p>
+  </div>
+
+<button type="button" class="collapsible">10.	How can I meet Samuel L Jackson?</button>
+  <div class="content">
+    <p>You got money, motherfucker?</p>
+  </div>
+
+
+
+  <style>
+  .content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  </style>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+
+<script src="SLJ-FAQ.js"></script>
+<script type="text/javascript" src="SLJ-FAQ.js"></script>

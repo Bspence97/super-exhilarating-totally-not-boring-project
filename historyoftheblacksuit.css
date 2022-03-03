@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  background-image: linear-gradient(#EA1818, #000 85%);
+}
+
+.Black-Suit {
+  margin: 25px;
+  text-align: center;
+  font-family: TheAmazingSpider-Man;
+  font-size: 100px;
+  color:#000;
+
+}
+
+.goop img {
+  position: fixed;
+  z-index: -1;
+}
+
+.TheEnd {
+  margin: 0px;
+  text-align: center;
+  font-family: TheAmazingSpider-Man;
+  font-size: 100px;
+  color:#fff;
+
+}
+
+.center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text {
+  margin: 25px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #fff;
+}
+
+.venom {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
